@@ -1,0 +1,28 @@
+<template>
+    <div>
+        <b-carousel
+        id="carousel-1"
+        :interval="5000"
+        controls
+        indicators
+        background="#ababab"
+        img-width="1024"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+        @sliding-start="onSlideStart"
+        @sliding-end="onSlideEnd"
+        >
+            <b-carousel-slide
+                img-src="../assets/ban.jpg"
+            ></b-carousel-slide>
+            <b-carousel-slide
+                img-src="../assets/fleur_inktoberl.png"
+            ></b-carousel-slide>
+            <b-carousel-slide
+                img-src="../assets/atelier_photo.png"
+            ></b-carousel-slide>
+        </b-carousel>
+    </div>
+</template>
+<script>
+</script>
